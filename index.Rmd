@@ -1,0 +1,29 @@
+---
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+<img src="images/profile.png" style="width:25%; border:10px solid; margin-right: 20px" align="left">
+
+R user, beginner
+
+will be updated soon
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
+Infected <- c(3, 4, 4, 6, 8, 8, 9, 12, 14, 14, 15, 16, 18, 18, 19, 
+              19, 21, 21, 22, 22, 22, 22, 22, 22, 22, 22, 24, 25, 
+              29, 29, 33, 36, 50, 55, 83, 93, 99, 118, 130, 149, 
+              158, 200, 242, 428, 553, 673, 790, 900, 1030, 1183, 1306, 
+              1518, 1624, 1796, 2031, 2161)
+Day <- 1:(length(Infected))
+N <- 32250240 # Malaysian population
+
+old <- par(mfrow = c(1, 2))
+plot(Day, Infected, type ="b")
+plot(Day, Infected, log = "y")
+abline(lm(log10(Infected) ~ Day))
+title("Confirmed Cases COVID-19 Malaysia", outer = TRUE, line = -2)
+
+```
+
+

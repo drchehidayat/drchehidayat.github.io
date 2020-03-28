@@ -1,0 +1,24 @@
+name: "Che Hidayat Che Nawi, MBBS"
+output_dir: "."
+
+navbar:
+  title: "Che Hidayat Che Nawi, MBBS"
+  left:
+    - text: "Writing"
+      href: research.html
+    - text: "Speaking"
+      href: talks.html
+    - text: "Programming"
+      href: software.html
+    - text: "COVID19 Updates"
+      href: https://www.coronatracker.com
+    - text: "COVID19 Epid. Modelling"
+      href: https://healthdata.usm.my:3939/mycovid19/covid19_my_flex5.html?fbclid=IwAR0tHcRG8Tw2rug25pNWtOuDkDYHD9ZDOoeQtKsKWsI_gpeBPwfPN3l7J-o
+      
+  right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    - icon: fa-github fa-lg
+      href: https://github.com/drchehidayat
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/dr-hidayat-367b69179/
